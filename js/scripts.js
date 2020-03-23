@@ -1,14 +1,16 @@
-var origSentence = function(sentence) {
-    console.log(sentence);
-};
-
-var sentence = prompt("Please enter your sentence to be coded:");
+$(button).click(function(){
+    userInput = prompt("Please enter your sentence to be coded:");
+});
 
 
-var firstChar = sentence.charAt(str.length(0) + 1);
-var lastChar = sentence.charAt();
-
-var combinedChar = firstChar.toUpperCase() + lastChar.toUpperCase();
 
 sentence();
-alert(combinedChar);
+
+
+
+var capitalizeLetters = function(sentence) {
+    return codedSentence = userInput.slice(0, 2).toUpperCase + userInput.slice(-1).toUpperCase;
+}
+
+var userInput = "";
+var codedSentence = "";
